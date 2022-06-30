@@ -34,3 +34,8 @@ To analysis the election audit with Python based on the data provided (election_
 
     **Diana DeGette** was the winner of this election!
     The candidate received 272,892 votes out of total 369,711 of votes, which is 82.8% of the total votes.
+
+
+## Electio-audit summary:
+    
+     The script used in this analysis will be good for running other election as well. If the source data is the same format (.csv files) and has three columns for the data, we could edit the path of the file, as well as the output analysis text file. 
