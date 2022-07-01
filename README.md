@@ -38,4 +38,12 @@ To analysis the election audit with Python based on the data provided (election_
 
 ## Electio-audit summary
     
-The script used in this analysis will be good for running other election as well. If the source data is the same format (.csv files) and has three columns for the data, we could edit the path of the file, as well as the output analysis text file. 
+The script used in this analysis will be good for running other election as well. If the source data is the same format (.csv files) and has three columns for the data (Ballot ID, County, Candidate), we could edit the path of the file, as well as the output analysis text file. 
+
+> file_to_load = os.path.join("Resources", "election_results.csv")
+
+This line of code will direct the path to the data source file, we can save the file in the "Resources" folder and replace the "election_results.csv" to the name of the data source file in order for this script to run.
+
+> file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+This line of code will save the output of the analysis for the election, we can replace the "election_analysis.txt" with desired file name for the new analysis.
